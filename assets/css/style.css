@@ -1,139 +1,51 @@
 body{
-    background-image: url("../img/brnback.jpg");/*use .. multiple folders*/
-    margin: 0%;
-    
-    
+    margin: 0px;
+    padding: 0px;
     
 }
 
 a{
-    color:#777777;
-    text-decoration: none;
-}
-
-header{
-    
-}
-
-#head{
-    height:20%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: white;
-    
-}
-
-
-#head h1{
-    
-    background-color:#4aaaa5;
-    float:left ;
     color: white;
-    margin-top:112px;
-    margin-left: 15%;
-    font-size: 1.0em;
-    padding: 9px;
-    
 }
 
-#nav{
-    float: right;
-    margin-top:7%;
-    margin-right:15%;
+.card-container{
+    width: 700px;
+    height:400px;
+    background: #fff;
+    border-radius:6px;
+    margin: auto;
+    top:50%;
+    left: 50%;
+    margin-top: 10%;
+    box-shadow: 0px 1px 10px 1px #000;
 }
 
-#nav li{
-    list-style: none;
-    font-weight: bold;
-    float:left;
-    padding-right: 10px;
-    color: #cccccc;
-    
-    
-}
-
-main{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
-}
-
-#about{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 15%;
-    margin-top:30px;
-    border: 2px solid #cccccc;
-    padding:20px 20px 100px 20px ;
-    background-color: white;
-    
-    
-}
-
-.me{
-    color:#4aaaa5;
-    border-bottom: 2px solid #cccccc;
-    
-    
-    
-}
-
-#about img{
-    float: left;
+.propic{
     margin: 10px;
 }
 
-#about p{
-    padding: 5px;
-    margin:0;
+.card{
+    margin: auto;
+    margin-top: 20px;
+    height: 500px;
+}
+
+.card-body img{
+    float: left;
+    margin-right: 20px;
+}
+
+.card-body p{
+    font-size: 1.5em;
     
 }
 
-#footer{
-    background-color: gray;
-    height:8%;
-    border-top: 8px solid #4aaaa5;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+#slide{
+    margin-top: 20px;
 }
 
-#port {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 15%;
-    margin-top:30px;
-    border: 2px solid #cccccc;
-    padding:20px 20px 100px 20px ;
-    background-color: white;
-    height: 50%;/*when floating .gallery left had to add height to main not sure why*/
+.carousel-inner img{
+    height: 300px;
+    
 }
 
-.gallery{
-    border: 1px solid black;
-    width: 200px;
-    margin: 5px;
-    float: left;
-}
-
-div .desc{
-    padding: 5px;
-    text-align: center;
-    background-color: #4aaaa5;
-}
-
-button{
-    color: white;
-    background-color: #4aaaa5;
-    padding: 10px 25px;
-}
-
-input[type=text]{
-    width: 100%;
-}
-
-
-  
